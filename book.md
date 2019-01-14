@@ -162,8 +162,6 @@ plt.plot(blob[0][:,0], blob[0][:,1], 'x', markersize=10, color='k', alpha=0.8) #
 plt.show()
 ```
 
-![envelope](envelope.png)
-
 
 ```python
 a = plt.plot(blob[0][inliers, 0], blob[0][inliers, 1], 'x', markersize=10, color='r', alpha=0.8, label='inliers')
@@ -325,7 +323,7 @@ SVM中有用的参数有
 #### 平均算法 
 ###### 粘合(pasting)
 黏合多个K紧邻
-```
+```python
 from sklearn.cross_validation import cross_val_score
 from sklearn.ensemble import BaggingClassifier
 from sklearn.neighbors import KNeighborsClassifier

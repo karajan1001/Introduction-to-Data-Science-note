@@ -1,4 +1,7 @@
 # 数据科学导论
 
-# 内容
-[book](book.md)
+* [Initial page](README.md)
+
+## 内容
+
+* [book](book.md)
